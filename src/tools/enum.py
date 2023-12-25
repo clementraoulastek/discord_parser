@@ -1,8 +1,17 @@
+"""Module for all enum class"""
+
 from enum import Enum, unique
 
 
 @unique
 class Canal(Enum):
+    """
+    Channel enum
+
+    Args:
+        Enum (Enum): Enum
+    """
+
     GENERAL = "cMK"
     COMMERCE = "cMK:"
     RECRUTEMENT = "cMK?"
@@ -11,6 +20,13 @@ class Canal(Enum):
 
 @unique
 class PercoId(Enum):
+    """
+    Perco id enum
+
+    Args:
+        Enum (Enum): Enum
+    """
+
     ADD_SELF = "gITM"
     ADD_OTHER = "gTS"
     REMOVE = "gTG"
@@ -21,6 +37,13 @@ class PercoId(Enum):
 
 @unique
 class LogoChanel(Enum):
+    """
+    Logo channel enum
+
+    Args:
+        Enum (Enum): Enum
+    """
+
     GENERAL = "⚪"
     COMMERCE = "🟤"
     RECRUTEMENT = "🟡"
@@ -34,4 +57,11 @@ class LogoChanel(Enum):
 
 @unique
 class RolesHexa(Enum):
+    """
+    Roles hexa enum
+
+    Args:
+        Enum (Enum): Enum
+    """
+
     EVERYONE = "@everyone"
